@@ -1,0 +1,15 @@
+#checkerboard {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+
+.black {
+  background-color: black;
+  border: solid black;
+}
+
+.white {
+  background-color: white;
+  border: solid black;
+}
